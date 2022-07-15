@@ -23,12 +23,15 @@ public class UserBean {
     @Column(name = "gender", columnDefinition = "TEXT")
     public String gender ;
     
-    @Column(name = "tobacco_consumption", columnDefinition = "TEXT")
+    @Column(name = "tobacco", columnDefinition = "TEXT")
     public String tobacco;
     
     @NotNull
     @Column(name = "salary", nullable = false )
     public int salary;
+    
+    @Column(name = "phone_no")
+    public long phone_no;
 
    
 }
